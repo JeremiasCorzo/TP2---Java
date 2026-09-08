@@ -59,6 +59,7 @@ public class Main extends JFrame {
 
         Producto producto = new Producto(nombre, precio, stock); // Crea un producto con los datos ingresados.
         txtResultado.setText(producto.mostrarInformacion()); // Muestra la información del producto en el área de texto.
+        JOptionPane.showMessageDialog(this, "Producto registrado correctamente."); //Muestra que el producto fue registrado correctamente.
     }
 
     // Método principal que inicia la aplicación.
