@@ -17,6 +17,7 @@ public class Main extends JFrame {
         setSize(500, 450); // Define el ancho y alto de la ventana.
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Cierra la aplicación al cerrar la ventana.*/
         setLocationRelativeTo(null); // Centra la ventana en la pantalla.
+        getContentPane().setBackground(Color.LIGHT_GRAY); // Cambia el color de fondo.
 
         // Etiquetas para indicar qué dato ingresar en cada campo.
         JLabel lblNombre = new JLabel("Nombre:");
